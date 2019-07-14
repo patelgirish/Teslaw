@@ -1,0 +1,16 @@
+<html>
+<head>
+//Required CSS  / JSS Files
+</head>
+<body>
+<div id="news"></div>
+//Click Button Below To Fetch News Feeds
+<input type="button" onclick="GetNews()" value="Get News Feed" />
+<script>
+    function GetNews()
+    {
+        $("#news").load("path_to/AjaxFetchData.php")
+    }
+</script>
+</body>
+</html>
